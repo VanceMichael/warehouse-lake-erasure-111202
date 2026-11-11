@@ -1,0 +1,26 @@
+{
+  "identities": [
+    {
+      "alias": "a1",
+      "subject": "synthetic-1"
+    },
+    {
+      "alias": "a2",
+      "subject": "synthetic-1"
+    }
+  ],
+  "activity": [
+    {
+      "event": "e1",
+      "alias": "a1",
+      "day": "2026-10-01",
+      "category": "read"
+    },
+    {
+      "event": "e2",
+      "alias": "other",
+      "day": "2026-10-01",
+      "category": "read"
+    }
+  ]
+}

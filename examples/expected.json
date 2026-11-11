@@ -1,0 +1,12 @@
+[
+  {
+    "event": "e1",
+    "subject": "synthetic-1",
+    "category": "read"
+  },
+  {
+    "event": "e2",
+    "subject": null,
+    "category": "read"
+  }
+]
