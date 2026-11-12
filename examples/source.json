@@ -7,20 +7,100 @@
     {
       "alias": "a2",
       "subject": "synthetic-1"
+    },
+    {
+      "alias": "a3",
+      "subject": "synthetic-2"
+    },
+    {
+      "alias": "a4",
+      "subject": "synthetic-3"
     }
   ],
   "activity": [
     {
-      "event": "e1",
+      "event": "e01",
       "alias": "a1",
-      "day": "2026-10-01",
-      "category": "read"
+      "day": "2026-09-05",
+      "category": "read",
+      "amount": "10.00"
     },
     {
-      "event": "e2",
+      "event": "e02",
       "alias": "other",
-      "day": "2026-10-01",
-      "category": "read"
+      "day": "2026-09-06",
+      "category": "read",
+      "amount": "5.00"
+    },
+    {
+      "event": "e03",
+      "alias": "a3",
+      "day": "2026-09-10",
+      "category": "purchase",
+      "amount": "20.00"
+    },
+    {
+      "event": "e04",
+      "alias": "a1",
+      "day": "2026-09-12",
+      "category": "purchase",
+      "amount": "7.50"
+    },
+    {
+      "event": "e05",
+      "alias": "a2",
+      "day": "2026-10-03",
+      "category": "purchase",
+      "amount": "12.00"
+    },
+    {
+      "event": "e06",
+      "alias": "a3",
+      "day": "2026-10-04",
+      "category": "read",
+      "amount": "3.00"
+    },
+    {
+      "event": "e07",
+      "alias": "a1",
+      "day": "2026-10-05",
+      "category": "read",
+      "amount": "1.00"
+    },
+    {
+      "event": "e08",
+      "alias": "a4",
+      "day": "2026-10-08",
+      "category": "purchase",
+      "amount": "30.00"
+    },
+    {
+      "event": "e09",
+      "alias": "a2",
+      "day": "2026-10-09",
+      "category": "read",
+      "amount": "2.50"
+    },
+    {
+      "event": "e10",
+      "alias": "a1",
+      "day": "2026-11-02",
+      "category": "purchase",
+      "amount": "8.00"
+    },
+    {
+      "event": "e11",
+      "alias": "a4",
+      "day": "2026-11-03",
+      "category": "read",
+      "amount": "4.00"
+    },
+    {
+      "event": "e12",
+      "alias": "a3",
+      "day": "2026-11-05",
+      "category": "read",
+      "amount": "6.00"
     }
   ]
 }

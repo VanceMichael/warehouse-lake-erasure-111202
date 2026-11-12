@@ -1,12 +1,62 @@
 [
   {
-    "event": "e1",
+    "event": "e01",
     "subject": "synthetic-1",
     "category": "read"
   },
   {
-    "event": "e2",
+    "event": "e02",
     "subject": null,
+    "category": "read"
+  },
+  {
+    "event": "e03",
+    "subject": "synthetic-2",
+    "category": "purchase"
+  },
+  {
+    "event": "e04",
+    "subject": "synthetic-1",
+    "category": "purchase"
+  },
+  {
+    "event": "e05",
+    "subject": "synthetic-1",
+    "category": "purchase"
+  },
+  {
+    "event": "e06",
+    "subject": "synthetic-2",
+    "category": "read"
+  },
+  {
+    "event": "e07",
+    "subject": "synthetic-1",
+    "category": "read"
+  },
+  {
+    "event": "e08",
+    "subject": "synthetic-3",
+    "category": "purchase"
+  },
+  {
+    "event": "e09",
+    "subject": "synthetic-1",
+    "category": "read"
+  },
+  {
+    "event": "e10",
+    "subject": "synthetic-1",
+    "category": "purchase"
+  },
+  {
+    "event": "e11",
+    "subject": "synthetic-3",
+    "category": "read"
+  },
+  {
+    "event": "e12",
+    "subject": "synthetic-2",
     "category": "read"
   }
 ]

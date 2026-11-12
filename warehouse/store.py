@@ -7,6 +7,11 @@ from pathlib import Path
 from .catalog import encode
 
 
+def digest_for(rows):
+    payload = b''.join(encode(row) + b'\n' for row in rows)
+    return hashlib.sha256(payload).hexdigest()
+
+
 class ObjectStore:
     def __init__(self, root):
         self.root = Path(root)
@@ -14,7 +19,7 @@ class ObjectStore:
 
     def put(self, rows):
         payload = b''.join(encode(row) + b'\n' for row in rows)
-        digest = hashlib.sha256(payload).hexdigest()
+        digest = digest_for(rows)
         target = self.root / (digest + '.jsonl')
         if target.exists():
             self.read(digest)

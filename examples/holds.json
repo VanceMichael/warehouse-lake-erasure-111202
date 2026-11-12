@@ -1,0 +1,16 @@
+{
+  "holds": [
+    {
+      "hold_id": "HOLD-A",
+      "reason": "合成证据保留-交易核对",
+      "release_clock": "2026-12-01",
+      "events": ["e05", "e07"]
+    },
+    {
+      "hold_id": "HOLD-B",
+      "reason": "合成证据保留-争议复核",
+      "release_clock": "2027-01-15",
+      "events": ["e07"]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "policy_id": "synthetic-retention-v1",
+  "tables": {
+    "activity": {
+      "retention_days": 120
+    }
+  },
+  "notes": "本地合成样例：按表给出留存窗口，仅用于演示删除闭包，不构成法律判断"
+}
